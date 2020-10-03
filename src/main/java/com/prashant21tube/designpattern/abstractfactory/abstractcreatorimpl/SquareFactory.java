@@ -1,4 +1,7 @@
-package com.prashant21tube.designpattern.abstractfactory;
+package com.prashant21tube.designpattern.abstractfactory.abstractcreatorimpl;
+
+import com.prashant21tube.designpattern.abstractfactory.Shape;
+import com.prashant21tube.designpattern.abstractfactory.Square;
 
 /**
  * Project: DesignPatterns
