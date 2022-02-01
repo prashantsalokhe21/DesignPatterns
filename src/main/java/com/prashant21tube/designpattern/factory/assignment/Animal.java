@@ -1,4 +1,4 @@
-package com.prashant21tube.designpattern.abstractfactory.assignment;
+package com.prashant21tube.designpattern.factory.assignment;
 
 /**
  * Project: DesignPatterns
@@ -11,12 +11,8 @@ package com.prashant21tube.designpattern.abstractfactory.assignment;
  * Created with IntelliJ IDEA
  * To change this template use File | Settings | File Templates.
  */
-public class Tiger implements Animal {
-    public void talk() {
-        System.out.println("Tiger says Roar Roar");
-    }
+public interface Animal {
 
-    public void walk() {
-        System.out.println("Tiger walks Fast");
-    }
+    void talk();
+    void walk();
 }

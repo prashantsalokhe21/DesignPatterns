@@ -1,4 +1,4 @@
-package com.prashant21tube.designpattern.abstractfactory.assignment;
+package com.prashant21tube.designpattern.factory.assignment;
 
 /**
  * Project: DesignPatterns
@@ -6,18 +6,17 @@ package com.prashant21tube.designpattern.abstractfactory.assignment;
  * <p>
  * User: Prashant Salokhe
  * Date: 10/4/2020
- * Time: 12:54 AM
+ * Time: 12:55 AM
  * <p>
  * Created with IntelliJ IDEA
  * To change this template use File | Settings | File Templates.
  */
-public class Duck implements Animal{
-
+public class Tiger implements Animal {
     public void talk() {
-        System.out.println("Duck says Quak Quak");
+        System.out.println("Tiger says Roar Roar");
     }
 
     public void walk() {
-        System.out.println("Duck walks slow");
+        System.out.println("Tiger walks Fast");
     }
 }

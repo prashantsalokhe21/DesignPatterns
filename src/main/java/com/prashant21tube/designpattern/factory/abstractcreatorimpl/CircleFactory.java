@@ -1,7 +1,7 @@
-package com.prashant21tube.designpattern.abstractfactory.abstractcreatorimpl;
+package com.prashant21tube.designpattern.factory.abstractcreatorimpl;
 
-import com.prashant21tube.designpattern.abstractfactory.Circle;
-import com.prashant21tube.designpattern.abstractfactory.Shape;
+import com.prashant21tube.designpattern.factory.Circle;
+import com.prashant21tube.designpattern.factory.Shape;
 
 /**
  * Project: DesignPatterns

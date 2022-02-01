@@ -1,6 +1,6 @@
-package com.prashant21tube.designpattern.abstractfactory.concretecreatorimpl;
+package com.prashant21tube.designpattern.factory.concretecreatorimpl;
 
-import com.prashant21tube.designpattern.abstractfactory.Shape;
+import com.prashant21tube.designpattern.factory.Shape;
 
 /**
  * Project: DesignPatterns

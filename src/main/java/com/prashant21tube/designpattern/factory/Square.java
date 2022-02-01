@@ -1,4 +1,4 @@
-package com.prashant21tube.designpattern.abstractfactory;
+package com.prashant21tube.designpattern.factory;
 
 /**
  * Project: DesignPatterns
@@ -6,13 +6,13 @@ package com.prashant21tube.designpattern.abstractfactory;
  * <p>
  * User: Prashant Salokhe
  * Date: 10/3/2020
- * Time: 9:46 PM
+ * Time: 9:48 PM
  * <p>
  * Created with IntelliJ IDEA
  * To change this template use File | Settings | File Templates.
  */
-public class Circle implements Shape {
+public class Square implements Shape {
     public void draw() {
-        System.out.println("Inside Circle :: draw() method.");
+        System.out.println("Inside Rectangle :: draw() method.");
     }
 }

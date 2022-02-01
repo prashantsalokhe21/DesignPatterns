@@ -1,9 +1,9 @@
-package com.prashant21tube.designpattern.abstractfactory.staticcreatorimpl;
+package com.prashant21tube.designpattern.factory.staticcreatorimpl;
 
-import com.prashant21tube.designpattern.abstractfactory.Circle;
-import com.prashant21tube.designpattern.abstractfactory.Rectangle;
-import com.prashant21tube.designpattern.abstractfactory.Shape;
-import com.prashant21tube.designpattern.abstractfactory.Square;
+import com.prashant21tube.designpattern.factory.Circle;
+import com.prashant21tube.designpattern.factory.Rectangle;
+import com.prashant21tube.designpattern.factory.Shape;
+import com.prashant21tube.designpattern.factory.Square;
 
 /**
  * Project: DesignPatterns
@@ -19,9 +19,7 @@ import com.prashant21tube.designpattern.abstractfactory.Square;
 public class ShapeFactory {
 
     public static Shape getShape(String shapeType) {
-        if(shapeType == null) {
-            return null;
-        } else if (shapeType.equalsIgnoreCase("CIRCLE")) {
+        if (shapeType.equalsIgnoreCase("CIRCLE")) {
             return new Circle();
         } else if (shapeType.equalsIgnoreCase("RECTANGLE")) {
             return new Rectangle();

@@ -1,4 +1,4 @@
-package com.prashant21tube.designpattern.abstractfactory.assignment;
+package com.prashant21tube.designpattern.factory.assignment;
 
 /**
  * Project: DesignPatterns
